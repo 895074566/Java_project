@@ -83,4 +83,6 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         // convetyers 是Spring mvc框架使用的消息转换器集合。消息转换器封装自定义的对象转换器
         converters.add(0,converty);
     }
+
+
 }
